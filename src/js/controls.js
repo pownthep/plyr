@@ -866,7 +866,7 @@ const controls = {
           const label = i18n.get(`qualityLabel.${value}`, this.config);
 
           if (!label.length) {
-            return `${value}p`;
+            return `${value}c`;
           }
 
           return label;
